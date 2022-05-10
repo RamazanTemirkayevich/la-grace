@@ -4161,6 +4161,11 @@
 }
 
 /* line 17, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_footer.scss */
+.footer-block__map > div > iframe {
+  border: none;
+}
+
+/* line 23, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_footer.scss */
 .footer-block__info {
   margin-top: 25.52px;
   display: flex;
@@ -4169,18 +4174,18 @@
   width: 349px;
 }
 
-/* line 24, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_footer.scss */
+/* line 30, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_footer.scss */
 .footer-block__info-contacts {
   display: flex;
   flex-direction: column;
 }
 
-/* line 28, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_footer.scss */
+/* line 34, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_footer.scss */
 .footer-block__info-contacts__adress {
   display: flex;
 }
 
-/* line 30, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_footer.scss */
+/* line 36, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_footer.scss */
 .footer-block__info-contacts__adress > span {
   margin-left: 14px;
   font-family: 'Rubik';
@@ -4190,13 +4195,13 @@
   color: #2A2929;
 }
 
-/* line 40, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_footer.scss */
+/* line 46, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_footer.scss */
 .footer-block__info-contacts__tel {
   margin-top: 46.52px;
   display: flex;
 }
 
-/* line 44, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_footer.scss */
+/* line 50, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_footer.scss */
 .footer-block__info-contacts__tel > a {
   display: block;
   margin-left: 14px;
@@ -4207,13 +4212,13 @@
   color: #2A2929;
 }
 
-/* line 55, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_footer.scss */
+/* line 61, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_footer.scss */
 .footer-block__info-contacts__mail {
   margin-top: 25px;
   display: flex;
 }
 
-/* line 59, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_footer.scss */
+/* line 65, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_footer.scss */
 .footer-block__info-contacts__mail > span {
   margin-left: 14px;
   font-family: 'Rubik';
@@ -4223,13 +4228,13 @@
   color: #2A2929;
 }
 
-/* line 70, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_footer.scss */
+/* line 76, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_footer.scss */
 .footer-block__info-social {
   margin-top: 109px;
   margin-left: 28px;
 }
 
-/* line 74, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_footer.scss */
+/* line 80, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_footer.scss */
 .footer-block__info-social > span {
   font-family: 'Rubik';
   font-weight: 400;
@@ -4239,7 +4244,7 @@
   color: #2A2929;
 }
 
-/* line 83, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_footer.scss */
+/* line 89, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_footer.scss */
 .footer-block__info-social__items {
   margin-top: 33px;
   display: flex;
@@ -4248,35 +4253,35 @@
 }
 
 @media (min-width: 375px) {
-  /* line 95, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_footer.scss */
+  /* line 101, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_footer.scss */
   .footer {
     height: unset;
   }
-  /* line 98, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_footer.scss */
+  /* line 104, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_footer.scss */
   .footer-block {
     flex-direction: column;
   }
-  /* line 101, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_footer.scss */
+  /* line 107, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_footer.scss */
   .footer-block__map {
     margin-left: 10px;
     width: 95%;
   }
-  /* line 106, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_footer.scss */
+  /* line 112, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_footer.scss */
   .footer-block__info {
     margin-left: 12px;
   }
 }
 
 @media (min-width: 1440px) {
-  /* line 114, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_footer.scss */
+  /* line 120, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_footer.scss */
   .footer {
     height: 477px;
   }
-  /* line 117, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_footer.scss */
+  /* line 123, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_footer.scss */
   .footer-block {
     flex-direction: row;
   }
-  /* line 120, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_footer.scss */
+  /* line 126, ../../../../../../../../../../../../../Users/family/Desktop/la-grace/src/scss/blocks/_footer.scss */
   .footer-block__map {
     margin-top: 25.52px;
     margin-left: 166px;
@@ -4345,3 +4350,5 @@ a {
     padding-right: 400px;
   }
 }
+
+/*# sourceMappingURL=style.css.map */
